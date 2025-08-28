@@ -1,16 +1,18 @@
 <html>
-<body bgcolor="pink">
-	BEGIN OF JSP<br>
-	<br> WELCOME
-	<br>
-	<%
+<body bgcolor="wheat">
+<h1>Begin of JSP<br>
+Hello Welcome</h1>
+This is my second JSP<br>
+<%
 	int a = 10;
 	int b = 20;
-	int sum;
-	sum = a + b;
-	out.println("Value of a is:" + a);
-	out.println("Value of b is:" + b);
-	out.println("sum of two values is:" + sum);
-	%>
+	int c = a +b;
+	out.println("Value of a is " + a);
+	out.println("Value of b is " + b);
+	out.println("Sum of both number is " + c);
+%>
+<br>
+<h1>End of JSP</h1>
+
 </body>
 </html>
