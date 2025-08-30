@@ -2,6 +2,8 @@ package com.cluster;
 
 import java.sql.Connection;
 
+import com.cluster.util.DBUtil;
+
 public class UserDetailServlet  extends HttpServlet{
 	Connection con;
 
