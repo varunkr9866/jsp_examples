@@ -1,6 +1,12 @@
 package com.cluster;
 
 import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import com.cluster.to.PersonTo;
+import com.cluster.util.DBUtil;
 
 public class UserDetailServlet extends HttpServlet{
 	Connection con;
@@ -22,7 +28,7 @@ public class UserDetailServlet extends HttpServlet{
 		String strNme = req.getParameter("nme");
 		String strPwd = req.getParameter("pwd");
 		
-		PersonTO personTO = new PersonTO();
+		PersonTo personTO = new PersonTo();
 		personTO.setName(strNme);
 		personTO.setPassword(strPwd);
 		

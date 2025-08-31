@@ -1,4 +1,4 @@
-<jsp:useBean id="pto" class="com.cluster.to.PersonTO" scope="request"/>
+<jsp:useBean id="pto" class="com.cluster.to.PersonTo" scope="request"/>
 <html>
 <body bgcolor="wheat">
 <center>
